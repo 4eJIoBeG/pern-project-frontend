@@ -1,0 +1,22 @@
+.wrapper {
+  @apply w-screen min-h-screen relative;
+}
+.wrapper > form {
+  @apply absolute p-3 left-5 top-5;
+}
+.wrapper > form > h1 {
+  @apply text-5xl mb-5;
+  text-align: center;
+}
+.wrapper > form > input {
+  @apply block py-1 px-3 rounded-sm mb-2 w-full;
+}
+.wrapper > form > button {
+  @apply text-lg text-blue-700 font-medium w-full uppercase py-3 px-4 border-white inline-block mt-2 transition-all;
+}
+.wrapper > form > button:hover {
+  @apply shadow-white shadow-md;
+}
+.success {
+  @apply text-green-600 text-3xl font-medium m-auto;
+}
